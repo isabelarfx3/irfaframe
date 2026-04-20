@@ -5,31 +5,31 @@
  <body>
    <a-scene>
      <a-assets>
-       <img id="sky" src="mountains1.jpg">
-       <img id="grass" src="grass1.jpg">
+       <img id="bomba" src="bomba.jpg">
+       <img id="yunque" src="yunque.jpg">
        <!-- Add asset here -->
        <a-asset-item
          id="character"
-         src="codey.gltf"></a-asset-item>
+         src="aguacate.glb"></a-asset-item>
      </a-assets>
 
 
      <a-sky src="#sky"></a-sky>
      <a-plane
-       src="#grass"
+       src="#yunque"
        rotation="-90 0 0"
        width="20"
        height="20"></a-plane>
      <a-text
-       value="Welcome!"
-       color="#FFD500"
+       value="Bori Bori!"
+       color="#6AE6AE"
        align="center"
        position="0 3 -4"></a-text>
      <!-- Add entity here: -->
-     <a-gltf-model
+     <a-glb-model
        src="#character"
        position="0 2 -4"
-       scale="0.5 0.5 0.5"></a-gltf-model>
+       scale="0.5 0.5 0.5"></a-glb-model>
    </a-scene>
  </body>
 </html>
